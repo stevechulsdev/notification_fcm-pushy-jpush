@@ -79,8 +79,10 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 
     // fcm
-    fcmImplementation 'com.google.firebase:firebase-messaging:17.3.4'
+//    fcmImplementation 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
 
     // pushy
-    pushyImplementation 'me.pushy:sdk:1.0.45'
+//    pushyImplementation 'me.pushy:sdk:1.0.45'
+    implementation 'me.pushy:sdk:1.0.45'
 }
