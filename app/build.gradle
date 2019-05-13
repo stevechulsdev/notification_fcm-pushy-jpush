@@ -30,6 +30,10 @@ android {
         fcm {
             java.srcDirs = ['$rootDir/app/src/main/java/flavor/fcm']
         }
+
+        pushy {
+            java.srcDirs = ['$rootDir/app/src/main/java/flavor/pushy']
+        }
     }
 
     flavorDimensions "version"
