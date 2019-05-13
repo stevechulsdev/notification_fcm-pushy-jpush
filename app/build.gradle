@@ -20,6 +20,36 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    flavorDimensions "version"
+    productFlavors {
+        fcm {
+            dimension "version"
+            versionNameSuffix "-fcm"
+            applicationIdSuffix ".fcm"
+            resValue 'string', 'app_name', "stevechulsdev-fcm"
+            versionCode 1
+            versionName "1.0.0"
+        }
+
+        pushy {
+            dimension "version"
+            versionNameSuffix "-pushy"
+            applicationIdSuffix ".pushy"
+            resValue 'string', 'app_name', "stevechulsdev-pushy"
+            versionCode 1
+            versionName "1.0.0"
+        }
+
+        jpush {
+            dimension "version"
+            versionNameSuffix "-jpush"
+            applicationIdSuffix ".jpush"
+            resValue 'string', 'app_name', "stevechulsdev-jpush"
+            versionCode 1
+            versionName "1.0.0"
+        }
+    }
 }
 
 dependencies {
