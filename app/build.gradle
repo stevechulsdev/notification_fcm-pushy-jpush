@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.stevechulsdev.notification_fcm"
+        applicationId "com.stevechulsdev.notification"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1

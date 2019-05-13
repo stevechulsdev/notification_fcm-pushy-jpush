@@ -1,4 +1,4 @@
-package com.stevechulsdev.notification_fcm
+package com.stevechulsdev.notification
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
