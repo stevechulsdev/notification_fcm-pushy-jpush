@@ -76,4 +76,7 @@ dependencies {
 
     // fcm
     fcmImplementation 'com.google.firebase:firebase-messaging:17.3.4'
+
+    // pushy
+    pushyImplementation 'me.pushy:sdk:1.0.45'
 }
