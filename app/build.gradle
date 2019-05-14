@@ -55,15 +55,6 @@ android {
             versionCode 1
             versionName "1.0.0"
         }
-
-        jpush {
-            dimension "version"
-            versionNameSuffix "-jpush"
-            applicationIdSuffix ".jpush"
-            resValue 'string', 'app_name', "stevechulsdev-jpush"
-            versionCode 1
-            versionName "1.0.0"
-        }
     }
 }
 
